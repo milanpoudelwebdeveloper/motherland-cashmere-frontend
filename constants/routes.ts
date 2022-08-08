@@ -1,0 +1,5 @@
+export const HOME = '/'
+export const SHOP = '/'
+export const TERMS = '/terms'
+export const ABOUT = '/about'
+export const CONTACT = '/contact'

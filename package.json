@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check-types": "tsc --pretty --noEmit",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "prepare": "husky install"
+  },
+  "author": "milan poudel",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@types/react": "^18.0.16",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^12.2.4",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html}": "eslint --cache --fix",
+    "*.{js,jsx,ts,tsx,md,html,css,scss}": "prettier --write --ignore-unknown"
+  },
+  "cacheDirectories": [
+    "node_modules/",
+    ".next/cache/"
+  ]
+}

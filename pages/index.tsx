@@ -3,7 +3,8 @@ import React from 'react'
 
 const Home:NextPage = () => {
   return (
-    <div>Home</div>
+    <div>Checking for div</div>
+
   )
 }
 

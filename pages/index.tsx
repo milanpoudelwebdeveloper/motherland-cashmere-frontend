@@ -1,10 +1,8 @@
 import { NextPage } from 'next'
 import React from 'react'
 
-const Home:NextPage = () => {
-  return (
-    <div>Home</div>
-  )
+const Home: NextPage = () => {
+  return <div>Checking for husky eslint lint staged</div>
 }
 
 export default Home

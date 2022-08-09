@@ -8,17 +8,23 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import { Navigation } from 'swiper'
 import { photoSectionItems } from '../../constants/photoSection'
+import { Autoplay } from 'swiper'
 
 const PhotoSection = () => {
   return (
     <div className="px-8 mx-5 overflow-hidden h-96 bg-grey2">
-      <Swiper navigation={true} modules={[Navigation]}>
+      <Swiper
+        autoplay={{
+          delay: 2500,
+        }}
+        loop={true}
+        modules={[Autoplay]}
+      >
         {photoSectionItems.map(({ title, main, description, image }) => (
           <SwiperSlide
             className="flex justify-center h-full pt-10 align-middle"
-            key={title}
+            key={main}
           >
             <div className="flex flex-col flex-1 gap-5 px-8 my-auto">
               <span>{title}</span>

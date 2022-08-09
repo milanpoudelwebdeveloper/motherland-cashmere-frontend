@@ -1,0 +1,39 @@
+.category {
+  max-width: 1180px;
+  margin: 5rem auto;
+  padding: 0 5rem;
+  overflow: hidden;
+}
+
+.categoryItems {
+  display: flex;
+  gap: 20px;
+}
+
+.categoryItem {
+  background-color: #e5e1e0;
+  height: 16rem;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.categoryItem:hover img {
+  transform: scale(1.1);
+}
+
+.cName {
+  position: absolute;
+  z-index: 100;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  padding: 0.5rem 0.8rem;
+  font-weight: 500;
+}

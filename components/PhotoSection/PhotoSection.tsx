@@ -11,9 +11,11 @@ import 'swiper/css/navigation'
 import { photoSectionItems } from '../../constants/photoSection'
 import { Autoplay } from 'swiper'
 
+import styles from './PhotoSection.module.css'
+
 const PhotoSection = () => {
   return (
-    <div className="px-8 mx-5 overflow-hidden h-96 bg-grey2">
+    <div className={styles.photoSection}>
       <Swiper
         autoplay={{
           delay: 2500,
@@ -22,22 +24,17 @@ const PhotoSection = () => {
         modules={[Autoplay]}
       >
         {photoSectionItems.map(({ title, main, description, image }) => (
-          <SwiperSlide
-            className="flex justify-center h-full pt-10 align-middle"
-            key={main}
-          >
-            <div className="flex flex-col flex-1 gap-5 px-8 my-auto">
+          <SwiperSlide className={styles.swiperSlide} key={main}>
+            <div className={styles.photoContainer}>
               <span>{title}</span>
-              <h1 className="text-3xl font-bold">{main}</h1>
+              <h1 className={styles.mainTitle}>{main}</h1>
               <p>{description}</p>
               <Link href={SHOP} passHref>
-                <a className="px-3 py-2 text-white bg-green max-w-max">
-                  SHOP NOW
-                </a>
+                <a className={styles.shopBtn}>SHOP NOW</a>
               </Link>
             </div>
-            <div className="flex-1">
-              <img src={image} className="" alt="slider-image" />
+            <div className={styles.imageSection}>
+              <img src={image} alt="slider-image" />
             </div>
           </SwiperSlide>
         ))}

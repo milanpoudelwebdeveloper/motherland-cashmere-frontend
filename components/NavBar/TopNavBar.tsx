@@ -1,14 +1,15 @@
 import React from 'react'
 import { topNavItems } from '../../constants/navBarItems'
+import styles from './NavBar.module.css'
 
 const TopNavBar = () => {
   return (
-    <div className="text-base text-white bg-green">
-      <div className="flex items-center justify-between max-w-screen-lg py-3 mx-auto">
+    <div className={styles.topNavBar}>
+      <div className={styles.topNav}>
         <p>Order Online Or Call Us: (001) 2222-55555</p>
-        <ul className="flex items-center">
+        <ul className={styles.topNavItems}>
           {topNavItems.map((item) => (
-            <li key={item} className="px-2">
+            <li key={item} className={styles.topNavItem}>
               {item}
             </li>
           ))}

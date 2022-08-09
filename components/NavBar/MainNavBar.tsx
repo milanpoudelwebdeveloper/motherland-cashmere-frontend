@@ -3,11 +3,12 @@ import React from 'react'
 import { navItems } from '../../constants/navBarItems'
 import { AiOutlineUser, AiOutlineSearch } from 'react-icons/ai'
 import { BsHeart } from 'react-icons/bs'
+import styles from './NavBar.module.css'
 
 const MainNavBar = () => {
   return (
-    <div className="leading-24">
-      <div className="flex justify-between max-w-screen-lg py-3 mx-auto">
+    <div className={styles.mainNavBar}>
+      <div className={styles.mainNav}>
         <Link href="/" passHref>
           <h1>Motherland Cashmere</h1>
         </Link>

@@ -12,26 +12,23 @@ const MainNavBar = () => {
         <Link href="/" passHref>
           <h1>Motherland Cashmere</h1>
         </Link>
-        <ul className="flex align-middle">
+        <ul className={styles.mainNavItems}>
           {navItems.map(({ title, link }) => (
-            <li
-              key={title}
-              className="px-4 text-lg cursor-pointer hover:text-green"
-            >
+            <li key={title} className={styles.mainNavItem}>
               <Link href={link} passHref>
                 <p>{title}</p>
               </Link>
             </li>
           ))}
         </ul>
-        <div className="flex gap-6 align-middle">
-          <div className="cursor-pointer">
+        <div className={styles.rightIcons}>
+          <div className={styles.rightIcon}>
             <AiOutlineUser size={20} />
           </div>
-          <div className="cursor-pointer">
+          <div className={styles.rightIcon}>
             <AiOutlineSearch size={20} />
           </div>
-          <div className="cursor-pointer">
+          <div className={styles.rightIcon}>
             <BsHeart size={20} />
           </div>
         </div>

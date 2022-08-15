@@ -1,0 +1,10 @@
+.headingTitle {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.headingTitle h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}

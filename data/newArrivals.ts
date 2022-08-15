@@ -1,0 +1,42 @@
+export const newArrivals = [
+  {
+    id: 1,
+    type: "Men's Clothes",
+    title: "Men's T-Shirt",
+    price: 500,
+    description: 'This is a good product',
+    image: '/images/product-1.jpg',
+  },
+  {
+    id: 2,
+    type: "Men's Clothes",
+    title: "Men's T-Shirt",
+    price: 500,
+    description: 'This is a good product',
+    image: '/images/product-2.jpg',
+  },
+  {
+    id: 3,
+    type: "Men's Clothes",
+    title: "Men's T-Shirt",
+    price: 500,
+    description: 'This is a good product',
+    image: '/images/product-3.jpg',
+  },
+  {
+    id: 4,
+    type: "Men's Clothes",
+    title: "Men's T-Shirt",
+    price: 500,
+    description: 'This is a good product',
+    image: '/images/product-4.jpg',
+  },
+  {
+    id: 5,
+    type: "Men's Clothes",
+    title: "Men's T-Shirt",
+    price: 500,
+    description: 'This is a good product',
+    image: '/images/product-5.jpg',
+  },
+]

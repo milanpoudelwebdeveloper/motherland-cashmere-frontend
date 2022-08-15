@@ -29,6 +29,7 @@
 
 .mainNavBar {
   line-height: 12px;
+  padding: 5px 0px;
 }
 
 .mainNav {
@@ -38,4 +39,29 @@
   padding: 12px 0;
   margin: 0 auto;
   align-items: center;
+}
+
+.mainNavItems {
+  display: flex;
+  align-items: center;
+}
+
+.mainNavItem {
+  padding: 0px 1rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mainNavItem:hover {
+  color: var(--green);
+}
+
+.rightIcons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.rightIcon {
+  cursor: pointer;
 }

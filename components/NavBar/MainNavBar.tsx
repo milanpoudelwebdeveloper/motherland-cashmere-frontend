@@ -10,7 +10,7 @@ const MainNavBar = () => {
     <div className={styles.mainNavBar}>
       <div className={styles.mainNav}>
         <Link href="/" passHref>
-          <h1>Motherland Cashmere</h1>
+          <h3>Motherland Cashmere</h3>
         </Link>
         <ul className={styles.mainNavItems}>
           {navItems.map(({ title, link }) => (

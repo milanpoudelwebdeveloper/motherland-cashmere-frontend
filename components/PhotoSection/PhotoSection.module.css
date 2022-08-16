@@ -6,11 +6,14 @@
   margin: 0 20px;
 }
 
+.swiperContainer {
+  display: flex;
+  height: 100%;
+}
+
 .swiperSlide {
   display: flex;
   height: 100%;
-  paddingtop: 40px;
-  justify-content: center;
   align-items: center;
 }
 
@@ -23,11 +26,6 @@
   margin: 0 auto;
 }
 
-.mainTitle {
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .shopBtn {
   padding: 8px 12px;
   color: white;
@@ -37,4 +35,10 @@
 
 .imageSection {
   flex: 0.5;
+}
+.imageSection img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
 }

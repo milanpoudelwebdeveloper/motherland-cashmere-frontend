@@ -22,12 +22,13 @@ const PhotoSection = () => {
         }}
         loop={true}
         modules={[Autoplay]}
+        className={styles.swiperContainer}
       >
         {photoSectionItems.map(({ title, main, description, image }) => (
-          <SwiperSlide className={styles.swiperSlide} key={main}>
+          <SwiperSlide key={main} className={styles.swiperSlide}>
             <div className={styles.photoContainer}>
               <span>{title}</span>
-              <h1 className={styles.mainTitle}>{main}</h1>
+              <h1>{main}</h1>
               <p>{description}</p>
               <Link href={SHOP} passHref>
                 <a className={styles.shopBtn}>SHOP NOW</a>

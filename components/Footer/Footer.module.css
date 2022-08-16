@@ -40,6 +40,9 @@
   margin-bottom: 1rem;
 }
 
+.footerMiddle h4 {
+  margin-bottom: 1rem;
+}
 .newsletter h2 {
   text-transform: uppercase;
 }
@@ -65,15 +68,11 @@
   font-size: 12px;
 }
 
-.footer hr {
-  color: rgba(255, 255, 255, 0.1);
-  width: 80%;
-  margin-top: 2.5rem;
-}
-
 .copyRight {
   text-align: center;
   padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1rem;
 }
 
 .copyRight p {

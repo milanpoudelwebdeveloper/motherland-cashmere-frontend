@@ -30,6 +30,7 @@
 .mainNavBar {
   line-height: 12px;
   padding: 5px 0px;
+  background-color: white;
 }
 
 .mainNav {
@@ -48,7 +49,7 @@
 
 .mainNavItem {
   padding: 0px 1rem;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
 }
 

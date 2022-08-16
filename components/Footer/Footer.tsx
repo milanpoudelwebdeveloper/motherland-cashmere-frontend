@@ -18,13 +18,13 @@ const Footer = () => {
 
         <div className={styles.footerMiddle}>
           <div>
-            <h1>SHOPPING</h1>
+            <h4>SHOPPING</h4>
             {footerMidItems.map((item, index) => (
               <p key={index}>{item}</p>
             ))}
           </div>
           <div>
-            <h1>SHOPPING</h1>
+            <h4>SHOPPING</h4>
             {footerMidItems2.map((item, index) => (
               <p key={index}> {item}</p>
             ))}
@@ -35,7 +35,6 @@ const Footer = () => {
           <NewsLetter />
         </div>
       </div>
-      <hr />
       <div className={styles.copyRight}>
         <p>Copyright © 2021 All rights reserved | Motherland Cashmere </p>
       </div>

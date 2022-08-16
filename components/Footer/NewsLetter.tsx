@@ -6,7 +6,7 @@ import styles from './Footer.module.css'
 const NewsLetter = () => {
   return (
     <div className={styles.newsletter}>
-      <h2>Newsletter</h2>
+      <h4>Newsletter</h4>
       <p>
         Be the first to know about new arrivals, look books, sales & promos!
       </p>

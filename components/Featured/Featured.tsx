@@ -3,7 +3,7 @@ import { newArrivals } from '../../data/newArrivals'
 import Heading from '../Common/Heading/Heading'
 import ProductCard from '../Common/ProductCard/ProductCard'
 
-const NewArrivals = () => {
+const Featured = () => {
   return (
     <>
       <Heading
@@ -20,4 +20,4 @@ const NewArrivals = () => {
   )
 }
 
-export default NewArrivals
+export default Featured

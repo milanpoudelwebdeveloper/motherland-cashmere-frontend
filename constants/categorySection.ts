@@ -2,16 +2,16 @@ export const categoryItems = [
   {
     id: 0,
     name: 'WOMEN',
-    image: '/images/banner.png',
+    image: '/images/cat1.jpg',
   },
   {
     id: 1,
     name: 'ACCESSORIES',
-    image: '/images/banner.png',
+    image: '/images/cat2.jpg',
   },
   {
     id: 2,
     name: 'MEN',
-    image: '/images/banner.png',
+    image: '/images/cat3.jpg',
   },
 ]

@@ -1,0 +1,80 @@
+.footer {
+  background-color: #111111;
+  color: white;
+  padding: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+.footerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footerMiddle {
+  display: flex;
+  gap: 6rem;
+}
+.footerItem {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.footerItem h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #b7b7b7;
+}
+
+.footerMiddle p {
+  margin-bottom: 1rem;
+}
+
+.footerMiddle h1 {
+  margin-bottom: 1rem;
+}
+
+.footerMiddle h4 {
+  margin-bottom: 1rem;
+}
+.newsletter h2 {
+  text-transform: uppercase;
+}
+
+.newsletter p {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+}
+
+.inputContainer input {
+  background-color: #111111;
+  outline: none;
+  border: none;
+  font-size: 12px;
+}
+
+.copyRight {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1rem;
+}
+
+.copyRight p {
+  font-size: 0.9rem;
+}

@@ -18,9 +18,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: white;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -30,4 +28,19 @@ a {
 
 li {
   list-style: none;
+}
+
+.product-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 2%;
+}
+
+hr {
+  width: 500px;
+  color: #eee;
+  margin: 0 auto;
 }

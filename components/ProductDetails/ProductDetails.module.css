@@ -1,0 +1,17 @@
+.productDetails {
+  overflow: hidden;
+  display: float;
+  max-width: 1140px;
+  margin: 5rem auto;
+}
+
+.photoSection {
+  float: left;
+  width: 45%;
+}
+
+.description {
+  float: right;
+  width: 50%;
+  margin=left: 5%;
+}

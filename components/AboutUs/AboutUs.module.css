@@ -1,0 +1,31 @@
+.aboutUs {
+  display: flex;
+  margin: 0 auto;
+  gap: 1rem;
+  max-width: 1140px;
+  padding: 2rem 1rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.imageSection {
+  flex: 0.5;
+}
+
+.imageSection img {
+  width: 95%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.description {
+  flex: 0.5;
+  font-size: 14px;
+  line-height: 1.8rem;
+}
+
+.description h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
